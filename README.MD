@@ -1,6 +1,7 @@
 <p align="center"><strong><span style="font-size:45px">Overview</span></strong></p>
 
-![Summary of this research](Figures/modeling.png)
+![Summary of this research](/Figures/modeling.png)
+
 
 <p align="center"><strong><span style="font-size:45px">Codes</span></strong></p>
 
