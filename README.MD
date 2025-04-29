@@ -1,8 +1,8 @@
-<p align="center"><strong><span style="font-size:28px">Overview</span></strong></p>
+<p align="center"><strong><span style="font-size:45px">Overview</span></strong></p>
 
 ![Summary of this research](Figures/modeling.png)
 
-<p align="center"><strong><span style="font-size:28px">Codes</span></strong></p>
+<p align="center"><strong><span style="font-size:45px">Codes</span></strong></p>
 
 # Requirements
 ```
@@ -19,5 +19,8 @@ Just simply run the `train.py`
 Notice:
 - `train.py` is the main file to run the training process.
 - Before running, make sure to download required datasets and place them in the `./Data`.
+  - `./Data/pathways/XX.gmt` for pathways
+  - `./Data/filter_ccle.h5ad` for bulk RNA-seq data
+  - `./Data/filter_pan_cancer.h5ad` for pretraining
 - Before running, make sure to specify paths to all files, including bulk, single-cell and pathways.
 - Feel free to change any hyperparameters in the `train.py` file.
